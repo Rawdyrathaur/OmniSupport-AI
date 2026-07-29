@@ -15,7 +15,7 @@ services:
 
   zookeeper:
     container_name: zookeeper
-    image: "docker.io/bitnami/zookeeper:3"
+    image: "docker.io/soldevelo/zookeeper:3.9"
     ports:
       - "2181:2181"
     volumes:
